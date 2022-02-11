@@ -1,4 +1,102 @@
-main {
-    color: red;
-}  
+:root {
+  /*======fontsVariable=====*/
+  --main_font-weight: 400;
+  --secondary_font-weight: 700;
+  --third_font-weight: 500;
+  --main_font-size: 14 px;
+  --secondary_font-size: 16 px;
+  /*=======================*/
+
+  /*====colorPalette=======*/
+  --first_color-txt: #212121;
+  --secondary_color-txt: #757575;
+  --third_color-txt: #ffffff;
+  --first-bg-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
+  --button-accent-color: #2196f3;
+  /*========================*/
+}
+
+/*======components=========*/
+.accent-title {
+  font-weight: var(--secondary_font-weight);
+  font-size: 36 px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  color: var(--first_color-txt);
+}
+
+/*=========logo==========*/
+.logo {
+  font-family: raleway, sans-serif;
+  font-weight: var(--secondary_font-weight);
+  font-size: 26px;
+  line-height: 1.19;
+}
+.part_logo {
+  color: var(--button-accent-color);
+}
+/*=========end logo======*/
+
+/*========header=========*/
+.nav-link {
+  color: inherit;
+  font-weight: var(--third_font-weight);
+  font-size: 14 px;
+  line-height: 1.14;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--button-accent-color);
+}
+
+.contact-inf-link {
+  color: var(--secondary_color-txt);
+  font-weight: var(--third_font-weight);
+  font-size: 14 px;
+  line-height: 1.14;
+}
+.contact-inf-link:hover,
+.contact-inf-link:focus {
+  color: #2196f3;
+}
+/*==========end header====*/
+
+/*=========hero===========*/
+.hero-section {
+  background-color: var(--first-bg-color);
+}
+.hero-title {
+  color: var(--third_color-txt);
+  font-weight: 900;
+  line-height: 1.36;
+  font-size: 44 px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-button {
+  background-color: var(--button-accent-color);
+  color: var(--third_color-txt);
+}
+/*=========end hero=========*/
+
+/*========our work==========*/
+.our-work-description_title {
+  font-weight: var(--secondary_font-size);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.our-work-description {
+  font-size: 14 px;
+  line-height: 1.71;
+  color: var(--secondary_color-txt);
+  letter-spacing: 0.03em;
+}
+.what-we-do_titile {
 }
