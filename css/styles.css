@@ -3,8 +3,8 @@
   --main_font-weight: 400;
   --secondary_font-weight: 700;
   --third_font-weight: 500;
-  --main_font-size: 14 px;
-  --secondary_font-size: 16 px;
+  --main_font-size: 14px;
+  --secondary_font-size: 16px;
   /*=======================*/
 
   /*====colorPalette=======*/
@@ -39,7 +39,12 @@ body {
 .active {
   color: var(--button-accent-color);
 }
-
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
 /*=========logo==========*/
 .logo {
   font-family: raleway, sans-serif;
@@ -57,10 +62,10 @@ body {
 
 /*========header=========*/
 .nav-link {
-  color: inherit;
   font-weight: var(--third_font-weight);
   font-size: var(--main_font-size);
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -107,7 +112,7 @@ body {
 
 /*========our work==========*/
 .our-work-description_title {
-  font-weight: var(--secondary_font-size);
+  font-weight: var(--secondary_font-weight);
   font-size: var(--main_font-size);
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -144,6 +149,7 @@ body {
   font-size: var(--main_font-size);
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .contact-inf-item_dark {
   color: rgba(255, 255, 255, 0.6);
@@ -169,7 +175,7 @@ body {
   color: var(--third_color-txt);
 }
 
-.products-card-name {
+.product-card-name {
   font-weight: var(--secondary_font-weight);
   font-size: 18px;
   line-height: 2;
