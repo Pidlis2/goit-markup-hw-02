@@ -18,6 +18,7 @@
 }
 
 /*======components=========*/
+
 .accent-title {
   font-weight: var(--secondary_font-weight);
   font-size: 36px;
@@ -95,6 +96,10 @@ body {
   text-transform: uppercase;
 }
 .order-button {
+  font-family: inherit;
+  font-weight: var(--secondary_font-weight);
+  font-size: var(--secondary_font-size);
+  line-height: 1.87;
   background-color: var(--button-accent-color);
   color: var(--third_color-txt);
 }
@@ -152,6 +157,8 @@ body {
 
 /*====portfolio buttons====*/
 .products-button {
+  font-family: inherit;
+  background-color: var(--secondary-bg-color);
   font-weight: var(--third_font-weight);
   font-size: var(--secondary_font-size);
   line-height: 1.62;
