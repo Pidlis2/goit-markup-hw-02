@@ -62,6 +62,7 @@ body {
 
 /*========header=========*/
 .nav-link {
+  color: inherit;
   font-weight: var(--third_font-weight);
   font-size: var(--main_font-size);
   line-height: 1.14;
