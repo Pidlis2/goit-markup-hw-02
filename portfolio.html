@@ -1,114 +1,182 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <title>WEBStudio</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
+      <a class="logo link" href="./index.html"
+        ><span class="part_logo"> Web </span>Studio</a
+      >
 
-        <a class="logo link" href="./index.html"> <span class="part_logo"> Web </span>Studio</a>
-
-        <nav class="nav">
-            <ul class="list">
-                <li> <a class="nav-link link " href="./index.html">Студия</a></li>
-                <li> <a class="nav-link link active" href="./portfolio.html">Портфолио</a></li>
-                <li> <a class="nav-link link" href="">Контакты</a></li>
-            </ul>
-        </nav>
-
-        <ul class="contact-inf list">
-            <li class="contact-inf-item"><a class="contact-inf-link link"
-                    href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-            <li class="contact-inf-item"><a class="contact-inf-link link" href="tel:+380961111111">+380961111111</a>
-            </li>
+      <nav class="nav">
+        <ul class="list">
+          <li><a class="nav-link link" href="./index.html">Студия</a></li>
+          <li>
+            <a class="nav-link link active" href="./portfolio.html"
+              >Портфолио</a
+            >
+          </li>
+          <li><a class="nav-link link" href="">Контакты</a></li>
         </ul>
+      </nav>
 
+      <ul class="contact-inf list">
+        <li class="contact-inf-item">
+          <a class="contact-inf-link link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-inf-item">
+          <a class="contact-inf-link link" href="tel:+380961111111"
+            >+380961111111</a
+          >
+        </li>
+      </ul>
     </header>
- <main>
-<section class="products-btn-section">
-  <ul class="products-buttons-list list">
-    <li class="products-buttons-item"><button class="products-button" type="button">Все</button></li>
-    <li class="products-buttons-item"><button class="products-button" type="button">Веб-сайты</button></li>
-    <li class="products-buttons-item"><button class="products-button" type="button">Приложения</button></li>
-    <li class="products-buttons-item"><button class="products-button" type="button">Дизайн</button></li>
-    <li class="products-buttons-item"><button class="products-button" type="button">Маркетинг</button></li>
-  </ul>
-</section>
+    <main>
+      <section class="products-btn-section">
+        <ul class="products-buttons-list list">
+          <li class="products-buttons-item">
+            <button class="products-button" type="button">Все</button>
+          </li>
+          <li class="products-buttons-item">
+            <button class="products-button" type="button">Веб-сайты</button>
+          </li>
+          <li class="products-buttons-item">
+            <button class="products-button" type="button">Приложения</button>
+          </li>
+          <li class="products-buttons-item">
+            <button class="products-button" type="button">Дизайн</button>
+          </li>
+          <li class="products-buttons-item">
+            <button class="products-button" type="button">Маркетинг</button>
+          </li>
+        </ul>
+      </section>
 
+      <section class="products-card-section">
+        <h1 class="product-card-title"><!--hidenTitle--></h1>
 
-<section class="products-card-section">
+        <ul class="products-card-list list">
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/tehnokryak.jpg"
+              alt="технокряк"
+            />
+            <h2 class="product-card-name">Технокряк</h2>
+            <p class="product-card-description card-description">Веб-сайт</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/new_orlean.jpg"
+              alt="новый орлеан"
+            />
+            <h2 class="product-card-name">Постер New Orlean vs Golden Star</h2>
+            <p class="product-card-description">Дизайн</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/seafood.jpg"
+              alt="ресторан сеафуд"
+            />
+            <h2 class="product-card-name">Ресторан Seafood</h2>
+            <p class="product-card-description card-description">Приложение</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/prime.jpg"
+              alt="Проект Prime"
+            />
+            <h2 class="product-card-name">Проект Prime</h2>
+            <p class="product-card-description card-description">Маркетинг</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/boxes.jpg"
+              alt="Проект Boxes"
+            />
+            <h2 class="product-card-name">Проект Boxes</h2>
+            <p class="product-card-description card-description">Приложение</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/inspiration.jpg"
+              alt="Inspiration has no Borders"
+            />
+            <h2 class="product-card-name">Inspiration has no Borders</h2>
+            <p class="product-card-description card-description">Веб-сайт</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/izdanie.jpg"
+              alt="Издание Limited Edition"
+            />
+            <h2 class="product-card-name">Издание Limited Edition</h2>
+            <p class="product-card-description card-description">Дизайн</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/lab.jpg"
+              alt="Проект LAB"
+            />
+            <h2 class="product-card-name">Проект LAB</h2>
+            <p class="product-card-description card-description">Маркетинг</p>
+          </li>
+          <li class="products-card-item">
+            <img
+              class="products-card"
+              src="./images/portfolio_img/growning.jpg"
+              alt="Growing Business"
+            />
+            <h2 class="product-card-name">Growing Business</h2>
+            <p class="product-card-description card-description">Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
-  <h1 class="product-card-title"><!--hidenTitle--></h1>
+    <footer class="footer-section">
+      <a class="logo-dark-theme logo link" href="./index.html"
+        ><span class="part_logo">Web</span>Studio</a
+      >
 
-   <ul class="products-card-list list">
-
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/tehnokryak.jpg" alt="технокряк">
-        <h2 class="product-card-name">Технокряк</h2>
-            <p class="product-card-description card-description">Веб-сайт</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/new_orlean.jpg" alt="новый орлеан">
-        <h2 class="product-card-name">Постер New Orlean vs Golden Star</h2>
-             <p class="product-card-description">Дизайн</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/seafood.jpg" alt="ресторан сеафуд">
-         <h2 class="product-card-name">Ресторан Seafood</h2>
-           <p class="product-card-description card-description">Приложение</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/prime.jpg" alt="Проект Prime">
-         <h2 class="product-card-name">Проект Prime</h2>
-           <p class="product-card-description card-description">Маркетинг</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/boxes.jpg" alt="Проект Boxes">
-         <h2 class="product-card-name">Проект Boxes</h2>
-           <p class="product-card-description card-description">Приложение</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/inspiration.jpg" alt="Inspiration has no Borders">
-         <h2 class="product-card-name">Inspiration has no Borders</h2>
-           <p class="product-card-description card-description">Веб-сайт</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/izdanie.jpg" alt="Издание Limited Edition">
-        <h2 class="product-card-name">Издание Limited Edition</h2>
-           <p class="product-card-description card-description">Дизайн</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/lab.jpg" alt="Проект LAB">
-        <h2 class="product-card-name">Проект LAB</h2>
-           <p class="product-card-description card-description">Маркетинг</p></li>
-    <li class="products-card-item">
-        <img class="products-card" src="./images/portfolio_img/growning.jpg" alt="Growing Business">
-        <h2 class="product-card-name">Growing Business</h2>
-           <p class="product-card-description card-description">Приложение</p></li>
-    </ul>  
-</section>
-
-</main>
-
-<footer class="footer-section">
-
-    <a class="logo-dark-theme logo link" href="./index.html"><span class="part_logo">Web</span>Studio</a>
-
-    <address class="adress-section">
+      <address class="adress-section">
         <p class="adress_description">г. Киев, пр-т Леси Украинки, 26</p>
-    </address>
-    <ul class="list">
-        <li> <a class="contact-inf-item_dark link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li> <a class="contact-inf-item_dark link" href="tel:+380961111111">+380961111111</a></li>
-    </ul>
-</footer>
-
-</body>
-
+      </address>
+      <ul class="list">
+        <li>
+          <a class="contact-inf-item_dark link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-inf-item_dark link" href="tel:+380961111111"
+            >+380961111111</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
